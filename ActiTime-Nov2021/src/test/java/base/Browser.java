@@ -17,9 +17,5 @@ public class Browser {
 			WebDriver driver= new FirefoxDriver();
 			return driver;
 	}
-		public static WebDriver launchOperaBrowser() {
-			System.setProperty("webdriver.opera.driver", "operadriver.exe");
-			WebDriver driver= new OperaDriver();
-			return driver;
-}
+	
 }
