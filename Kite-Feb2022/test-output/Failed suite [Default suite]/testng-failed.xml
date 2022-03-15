@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="pack.VerifyHeaders">
+        <methods>
+          <include name="loginKite"/>
+          <include name="closePOMObjects"/>
+          <include name="verifyHoldingsPage"/>
+          <include name="launchBrowser"/>
+          <include name="createObjectsOfPOMClasses"/>
+          <include name="closeBrowser"/>
+          <include name="verifyDashboardPage"/>
+          <include name="verifyFundsPage"/>
+          <include name="verifyPositionsPage"/>
+          <include name="logoutKite"/>
+          <include name="verifyOrderPage"/>
+        </methods>
+      </class> <!-- pack.VerifyHeaders -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
